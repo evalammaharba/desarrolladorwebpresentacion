@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    z-index: 100;
+    background:#fff;
+    height:70px;
+    width: 100%;
+    position:fixed;
+    -webkit-box-shadow: 0px 2px 26px -57px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 26px -57px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 26px -57px rgba(0,0,0,0.75);
+
+}
+.logo img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:200px;
+    padding: 15px 20px 15px 20px;
+
+}
+.menu{
+ overflow:auto;
+ position:absolute;
+ top:0;
+ right:0;
+ margin-right: 200px;
+ font-weight: 700;
+}
+.menu ul{
+    list-style: none;
+    padding:0;
+    margin: 0 0 0 130px;    
+}
+.menu li{
+    float:left;
+    list-style:none;
+}
+.menu a{
+    margin-left: 20px;
+    line-height: 70px;
+    text-align: right;
+    text-decoration:none;
+    color: black;
+}
+.menu a:hover{
+    color: rgb(29, 50, 167);
+}
+.menu i{
+    margin-top: 25px;
+    margin-left: 20px;
+    size: 18px;
+    color:rgb(21, 32, 97);
+}
+.slider{
+    z-index: 10;
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    height: 900px;
+    background: rgb(106, 99, 170);
+    background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);/*sacado de webgradients.com*/
+    text-align: center;
+    padding-top:calc(50% - 450px); } /*aqui deberia de ir 650px*/
+
+.titulo{
+    font-size: 84px;
+    font-weight: 700;
+    color:white;
+}
+.titulo2{
+    font-size:44px;
+    font-weight: 700;
+    color:white;
+    margin-bottom: 60px;
+}
+.boton a{
+    text-decoration:none;
+    padding: 15px 40px;
+    background: #000000;
+    color:#ffffff;
+    margin:auto;
+    border-radius: 4px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.servicios{
+    z-index:10;
+    position: relative;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.img-servicios{
+    width:400px;
+    padding-bottom: 30px;
+}
+.texto{
+    width:1200px;
+    margin:auto;
+}
+.footer{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(224, 224, 224);
+    height: 60px;
+    line-height: 60px;
+}
+
+
+
+
